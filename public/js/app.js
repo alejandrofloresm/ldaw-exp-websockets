@@ -1,3 +1,6 @@
 function makeToast() {
-  console.log('Make Toast');
+  $.toast({
+    text: 'This is called a toast!',
+    position: 'top-right'
+  });
 }
